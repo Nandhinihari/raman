@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Email" value="nandi@gmail.com"/>
+  <parameter name="Address" value="chennai"/>
+  <parameter name="Lname" value="hari"/>
+  <parameter name="Phone" value="956893695"/>
+  <parameter name="Languages" value="Arabic"/>
+  <parameter name="Fname" value="nandhini"/>
+  <test name="Test(failed)" preserve-order="true">
+    <parameter name="Email" value="nandi@gmail.com"/>
+    <parameter name="Address" value="chennai"/>
+    <parameter name="Lname" value="hari"/>
+    <parameter name="Phone" value="956893695"/>
+    <parameter name="Languages" value="Arabic"/>
+    <parameter name="Fname" value="nandhini"/>
+    <classes>
+      <class name="org.samox.SampleTest">
+        <methods>
+          <include name="test1"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- org.samox.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
